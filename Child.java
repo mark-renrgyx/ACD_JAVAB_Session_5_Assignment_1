@@ -7,9 +7,12 @@ package week1.day5.assignment1;
  */
 public class Child extends Parent {
 	private String name = "baby";
-
+	
 	public String getName() {
 		return name;
 	}
 	
+	public void setName(String name) {
+		this.name = name;
+	}
 }

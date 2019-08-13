@@ -6,5 +6,8 @@ package week1.day5.assignment1;
  *
  */
 public abstract class Parent {
+	
 	public abstract String getName();
+	
+	public abstract void setName(String name);
 }
